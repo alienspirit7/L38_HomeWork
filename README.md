@@ -103,6 +103,20 @@ This mirrors what happens in real AI when a model encounters data it was never t
 
 ---
 
+## 📖 Training Mode: "Where Did the Stamps Come From?"
+
+Before you opened this box, a **Data Scientist (The Trainer)** ran this game thousands of times using a supercomputer:
+
+1. **They showed the computer millions of pictures** of houses, cars, and cats.
+2. **They tried different stamps (Kernels)** to see which ones caught the most detail.
+3. **They filled out the Logic Card** by recording every time a certain pattern resulted in a certain object.
+
+> **The Result:** The stamps and Logic Card you have now are the **"Optimized Weights"** — the final version of the AI after it has already finished its schooling.
+
+In other words, when you play the game, you are running a **pre-trained model**. All the hard work of figuring out *which* stamps to use and *which* patterns mean "House" was done ahead of time — just like a real CNN that has been trained on a massive dataset before it is deployed into the real world.
+
+---
+
 ## 🔬 How the Game Maps to a Real CNN
 
 Every game action has a direct counterpart in Convolutional Neural Network architecture. Here's the full breakdown:
@@ -143,6 +157,14 @@ Player 2 is allowed to count marks as matching even if they're not perfectly ali
 The final lookup step maps detected features to class labels — exactly like the **Classification Layer** in a CNN. After all scanning and shape-finding, the network feeds its feature counts into a function that outputs probabilities:
 
 > *"I am 98% sure this is a House."*
+
+### 8. The Missing Piece: Backpropagation 🔄
+
+This game shows how a CNN **works** (Inference) — but how does a real AI **learn**?
+
+In a real CNN, after making a guess, the network compares its answer to the real label. If the Logic Card says *"House"* but the image was actually a *"Tree,"* the network goes **backward** through every layer to adjust its stamps (weights). This process is called **Backpropagation** — it's how the AI corrects its mistakes and gets smarter over time.
+
+> **In this game**, the "Training" was done by the game designers to ensure your model is **100% accurate** out of the box. You get to enjoy the finished, optimized network — no backpropagation headaches required!
 
 ---
 
