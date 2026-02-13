@@ -201,7 +201,7 @@ flowchart LR
 ```
 L38_HomeWork/
 ├── README.md                          # This file
-└── משחק_מפענח_התבניות.mp4             # Game demo video
+└── הסי-אן-אן_האנושי.mp4              # Game demo video
 ```
 
 ---
