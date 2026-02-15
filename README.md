@@ -221,3 +221,5 @@ This game was designed and developed as a home assignment for the **AI Developme
 ---
 
 *Built with ❤️ for curious minds who want to understand AI from the ground up.*
+
+© 2025 Elena Nurmanov. All rights reserved.
