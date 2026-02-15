@@ -212,4 +212,12 @@ This game was designed as a teaching tool to make the core concepts of **Convolu
 
 ---
 
+## ✍️ Author
+
+**Elena Nurmanov**
+
+This game was designed and developed as a home assignment for the **AI Development Course**, taught by **Dr. Segal Yoram**. 
+
+---
+
 *Built with ❤️ for curious minds who want to understand AI from the ground up.*
